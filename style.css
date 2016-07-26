@@ -1,0 +1,57 @@
+body {
+    background-color: lightblue;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:active {
+    color: yellow;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    background-color: red;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+th {
+    font-size: 2em;
+    padding-left: 9px;
+    padding-right: 9px;
+    border: 1px solid black;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+.linkBar {
+    margin: auto;
+    width: 75%;
+    background-color: #fa6b73;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.largetext {
+    font-size: 2em;
+}
