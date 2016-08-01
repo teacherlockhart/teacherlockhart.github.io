@@ -55,3 +55,15 @@ table td {
 .largetext {
     font-size: 2em;
 }
+
+.titleCol {
+    background-color: orange;
+}
+
+.even {
+    background-color: lightgray;
+}
+
+.appTable tr:nth-child(even) {
+    background-color: lightgray;
+}
