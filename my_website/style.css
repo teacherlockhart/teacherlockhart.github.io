@@ -63,3 +63,7 @@ table td {
 .appTable tr:nth-child(even) {
     background-color: lightgray;
 }
+
+.appTable tr:hover {
+    background-color: #66d9ff;
+}
