@@ -67,3 +67,7 @@ table td {
 .appTable tr:hover {
     background-color: #66d9ff;
 }
+
+ul li {
+    background-color: white;
+}
