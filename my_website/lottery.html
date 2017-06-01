@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Lottery Project</title>
+	<link rel="stylesheet" href="lotterystyle.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<h1>Lottery Project</h1>
+	
+	<hr>
+	
+	<form name="lottery">
+		<div>
+			<label for="amount">How many numbers are in this draw?</label>
+			<input type="text" id="amount" placeholder="how many" />
+		</div>
+		
+		<div>
+			<label for="range">What is the range of numbers for the lottery?</label>
+			<input type="text" id="rangeMin" placeholder="minimum" />
+			<input type="text" id="rangeMax" placeholder="maximum" />
+		</div>
+	
+		<div>
+			<label>Is there a "Mega" number?</label>
+			<input type="radio" name="mega" value="yes" />Yes
+			<input type="radio" name="mega" value="no" />No
+		</div>
+		
+		<div>
+			<label for="megaRange">If there is a Mega Number, what is the range for it?</label>
+			<input type="text" id="megaMin" placeholder="minimum" />
+			<input type="text" id="megaMax" placeholder="maximum" />
+		</div>
+		
+		<div class="submit">
+			<input type="button" value="Submit" onclick="lotteryDraw()" />
+		</div>
+	</form>
+	
+	<div id="output">
+		
+	</div>
+	
+</body>
+
+</html>
